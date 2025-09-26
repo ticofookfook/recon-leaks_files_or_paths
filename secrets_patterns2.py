@@ -19,7 +19,7 @@ SECRETS_PATTERNS_STRINGS = [
     r'["\']?database[_-]?password["\']?\s*[:=]\s*["\'][^"\']{8,}["\']',
     
     # ===== URLs COM CREDENCIAIS =====
-    r'(https?|ftp)://[^:]+:[^@]+@[^\s]+',
+    r'(http?|ftp)://[^:]+:[^@]+@[^\s]+',
     r'mongodb(\+srv)?://[^:]+:[^@]+@[^\s]+',
     r'postgres://[^:]+:[^@]+@[^\s]+',
     r'mysql://[^:]+:[^@]+@[^\s]+',
